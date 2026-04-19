@@ -44,7 +44,7 @@ Slike treba postaviti u mapu `img/` s ovim imenima:
 | `plaza.jpg`        | Plaža – kartica na naslovnici    |
 | `crkva.jpg`        | Crkva – kartica na naslovnici    |
 | `restoran.jpg`     | Restoran – kartica na naslovnici |
-| `plaza-glavna.jpg` | Gradska plaža                    |
+| `plaza-glavna.jpg` | Glavna plaža                    |
 | `plaza-uvala.jpg`  | Uvala Soline                     |
 | `ronjenje.jpg`     | Ronjenje                         |
 | `crkva-big.jpg`    | Crkva (veliki format)            |
