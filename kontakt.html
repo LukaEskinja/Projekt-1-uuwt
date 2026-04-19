@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kontaktirajte turistički vodič Svetog Filipa i Jakova – pošaljite upit, prijavite se na newsletter ili zatražite personalizirane preporuke.">
+  <meta name="author" content="Turistički vodič SFJ">
+  <meta property="og:title" content="Kontakt – Sveti Filip i Jakov">
+  <meta property="og:description" content="Pošaljite nam upit ili se prijavite na naš newsletter.">
+  <meta property="og:image" content="img/og-preview.jpg">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="img/favicon.ico">
+  <title>Kontakt – Sveti Filip i Jakov</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Sveti Filip i Jakov – povratak na naslovnicu">
+        <span class="logo-accent">SFJ</span>
+        <span class="logo-text">Sveti Filip i Jakov</span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+      <label for="nav-toggle" class="hamburger" aria-label="Otvori/zatvori izbornik">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="main-nav" aria-label="Glavna navigacija">
+        <ul>
+          <li><a href="index.html" >Naslovnica</a></li>
+          <li><a href="mjesta.html" >Atrakcije</a></li>
+          <li><a href="prakticno.html" >Praktično</a></li>
+          <li><a href="kontakt.html" class="active" aria-current="page">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section class="page-hero" aria-label="Zaglavlje stranice">
+      <div class="container">
+        <h1>Kontakt</h1>
+        <p class="page-subtitle">Imate pitanje? Javite nam se – odgovaramo brzo.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="kontakt-form-heading">
+      <div class="container contact-layout">
+
+        <div class="contact-info">
+          <h2 id="kontakt-info-heading">Gdje nas pronaći</h2>
+          <address>
+            <div class="contact-detail">
+              <span class="contact-icon" aria-hidden="true">📍</span>
+              <div>
+                <strong>Adresa</strong>
+                <p>Obala kralja Petra Krešimira IV<br>23207 Sveti Filip i Jakov</p>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <span class="contact-icon" aria-hidden="true">📞</span>
+              <div>
+                <strong>Telefon</strong>
+                <p><a href="tel:+385234444444">+385 (0)23 444 444</a></p>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <span class="contact-icon" aria-hidden="true">✉️</span>
+              <div>
+                <strong>E-mail</strong>
+                <p><a href="mailto:info@sfj-turizam.hr">info@sfj-turizam.hr</a></p>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <span class="contact-icon" aria-hidden="true">🕐</span>
+              <div>
+                <strong>Radno vrijeme ureda</strong>
+                <p>Ponedjeljak – petak: 8–16 h<br>Subota: 9–13 h<br>Nedjelja: zatvoreno</p>
+              </div>
+            </div>
+          </address>
+
+          <div class="contact-img-wrap">
+            <img src="img/ured.jpg" alt="Turistički ured Svetog Filipa i Jakova" loading="lazy">
+          </div>
+        </div>
+
+        <div class="contact-form-wrap">
+          <h2 id="kontakt-form-heading">Pošaljite upit</h2>
+          <p>Popunite obrazac i odgovorit ćemo vam u roku 24 sata.</p>
+
+          <form class="contact-form" novalidate>
+            <fieldset>
+              <legend>Vaši kontakt podaci</legend>
+
+              <div class="form-group">
+                <label for="ime">Ime i prezime <span class="required-mark" aria-hidden="true">*</span></label>
+                <input
+                  type="text"
+                  id="ime"
+                  name="ime"
+                  autocomplete="name"
+                  required
+                  placeholder="npr. Ana Horvat"
+                  aria-required="true"
+                >
+              </div>
+
+              <div class="form-group">
+                <label for="email">E-mail adresa <span class="required-mark" aria-hidden="true">*</span></label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  autocomplete="email"
+                  required
+                  placeholder="vasa@email.com"
+                  aria-required="true"
+                >
+              </div>
+
+              <div class="form-group">
+                <label for="telefon">Telefon</label>
+                <input
+                  type="tel"
+                  id="telefon"
+                  name="telefon"
+                  autocomplete="tel"
+                  placeholder="+385 91 123 4567"
+                >
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>Vaš upit</legend>
+
+              <div class="form-group">
+                <label for="tema">Tema upita <span class="required-mark" aria-hidden="true">*</span></label>
+                <select id="tema" name="tema" required aria-required="true">
+                  <option value="" disabled selected>Odaberite temu…</option>
+                  <option value="smjestaj">Smještaj i rezervacije</option>
+                  <option value="atrakcije">Atrakcije i aktivnosti</option>
+                  <option value="prijevoz">Prijevoz i dostupnost</option>
+                  <option value="dogadjaji">Događaji i festivali</option>
+                  <option value="ostalo">Ostalo</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="datum">Planirani datum posjeta</label>
+                <input
+                  type="date"
+                  id="datum"
+                  name="datum"
+                  min="2026-01-01"
+                >
+              </div>
+
+              <div class="form-group">
+                <label for="poruka">Poruka <span class="required-mark" aria-hidden="true">*</span></label>
+                <textarea
+                  id="poruka"
+                  name="poruka"
+                  rows="5"
+                  required
+                  aria-required="true"
+                  placeholder="Opišite što biste htjeli znati ili organizirati…"
+                ></textarea>
+              </div>
+
+              <div class="form-group form-group--checkbox">
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Prijavite me na newsletter s vijestima i ponudama</label>
+              </div>
+            </fieldset>
+
+            <p class="required-note"><span aria-hidden="true">*</span> Obavezna polja</p>
+
+            <button type="submit" class="btn btn-primary btn--full">Pošalji poruku</button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-brand">SFJ – Sveti Filip i Jakov</p>
+      <nav aria-label="Footer navigacija">
+        <ul class="footer-nav">
+          <li><a href="index.html">Naslovnica</a></li>
+          <li><a href="mjesta.html">Atrakcije</a></li>
+          <li><a href="prakticno.html">Praktično</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+      <p class="footer-copy">© 2026 Turistički vodič SFJ</p>
+    </div>
+  </footer>
+
+</body>
+</html>
