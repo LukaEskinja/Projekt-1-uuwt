@@ -32,28 +32,7 @@ Otvori `index.html` u browseru ili koristi **Live Server** u VS Code-u.
 - [x] Pristupačnost: skip link, vidljiv fokus, `alt` na slikama
 - [x] SEO: `<title>`, `meta description`, Open Graph tagovi
 - [x] `README.md`
-- [ ] Netlify deploy
-
-## Slike
-
-Slike treba postaviti u mapu `img/` s ovim imenima:
-
-| Datoteka           | Opis                             |
-| ------------------ | -------------------------------- |
-| `hero.jpg`         | Naslovni baner                   |
-| `plaza.jpg`        | Plaža – kartica na naslovnici    |
-| `crkva.jpg`        | Crkva – kartica na naslovnici    |
-| `restoran.jpg`     | Restoran – kartica na naslovnici |
-| `plaza-glavna.jpg` | Glavna plaža                    |
-| `plaza-uvala.jpg`  | Uvala Soline                     |
-| `ronjenje.jpg`     | Ronjenje                         |
-| `crkva-big.jpg`    | Crkva (veliki format)            |
-| `setnica.jpg`      | Šetnica uz more                  |
-| `luka.jpg`         | Ribarska luka                    |
-| `riba.jpg`         | Riba s gradela                   |
-| `konoba.jpg`       | Dalmatinska konoba               |
-| `kava.jpg`         | Kafić uz plažu                   |
-| `ured.jpg`         | Turistički ured                  |
+- [x] Netlify deploy
 
 ## Autor
 
