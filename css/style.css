@@ -55,6 +55,15 @@ textarea {
   font: inherit;
 }
 
+button:focus,
+input:focus,
+select:focus,
+textarea:focus,
+a:focus {
+  outline: 2px solid var(--color-stone);
+  outline-offset: 2px;
+}
+
 .container {
   max-width: var(--max-width);
   margin: 0 auto;
