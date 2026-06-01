@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "🏖️",
+    "title": "Plaža Šibice",
+    "description": "Šljunčana plaža s tirkiznim morem, ležaljkama i pristupom lokalnim konobama."
+  },
+  {
+    "id": 2,
+    "icon": "🏛️",
+    "title": "Stara jezgra",
+    "description": "Kamene ulice, crkva sv. Filipa i Jakova te autentična dalmatinska atmosfera."
+  },
+  {
+    "id": 3,
+    "icon": "🍤",
+    "title": "Riblji restoran",
+    "description": "Domaće dalmatinske specijalitete s pogledom na more i svježim ulovom dana."
+  },
+  {
+    "id": 4,
+    "icon": "🌅",
+    "title": "Zalazak sunca",
+    "description": "Šetnica uz more nudi nezaboravne poglede na zalazak sunca i otočnu rivu."
+  }
+]

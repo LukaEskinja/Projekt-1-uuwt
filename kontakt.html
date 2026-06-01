@@ -92,7 +92,7 @@
           <h2 id="kontakt-form-heading">Pošaljite upit</h2>
           <p>Popunite obrazac i odgovorit ćemo vam u roku 24 sata.</p>
 
-          <form class="contact-form" novalidate>
+          <form id="contact-form" class="contact-form" novalidate>
             <fieldset>
               <legend>Vaši kontakt podaci</legend>
 
@@ -180,9 +180,21 @@
             <p class="required-note"><span aria-hidden="true">*</span> Obavezna polja</p>
 
             <button type="submit" class="btn btn-primary btn--full">Pošalji poruku</button>
+            <div id="form-message" class="form-message" role="alert" aria-live="polite"></div>
           </form>
+
+          <div id="queries-container" aria-labelledby="queries-heading" style="margin-top: 2rem;"></div>
         </div>
 
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="preporuke-heading">
+      <div class="container">
+        <h2 id="preporuke-heading">Preporučena mjesta za posjet</h2>
+        <div id="recommendations-container" style="display: grid; gap: 1rem; margin-top: 1.5rem;">
+          <p style="color: var(--color-muted);">📍 Učitavanje preporuka...</p>
+        </div>
       </div>
     </section>
 
@@ -203,5 +215,6 @@
     </div>
   </footer>
 
+  <script type="module" src="js/app.js"></script>
 </body>
 </html>
